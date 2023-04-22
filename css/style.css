@@ -1,8 +1,9 @@
+/*Estilos del header de la página*/
 .encabezado{
     font-family: 'Roboto', sans-serif;
     background-color: #000000;
 }
-.encabezado, h1{
+.encabezado, h1{ 
     font-size: 1.74em;
     font-weight:bolder;
     color: #FFFFFF;
@@ -12,3 +13,4 @@
     font-weight:bolder;
     color: #36ABA4;
 }
+/*Estilos del main de la página*/

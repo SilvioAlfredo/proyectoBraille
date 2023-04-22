@@ -16,16 +16,27 @@
         <header class = "encabezado">
             <h1>Conversor Braille.</h1>
             <div class = "div__menu">
-                <a class = "menu">Proyecto</a>
-                <a class = "menu">Contacto</a>
+                <a href="" class = "menu">Proyecto</a>
+                <a href="" class = "menu">Contacto</a>
             </div>
         </header>
-        <main class = "">
+        <main class = "contenedorPrincipal">
+            <div class="subContenedorInput">
+                <textarea type="text" class="entrada" cols="30" rows="10" placeholder="Ingrese su texto aquí..."></textarea>
+                <button type="button" class="convertirBraille">Convertir</button>
+            </div>
+            <div class="subContenedorOuput">
+                <textarea type="text" class="salida" cols="30" rows="10" placeholder="En este lugar aparecerá su texto en braille..."></textarea>
+                <button type="button" class="copiarBraille">Copiar</button>
+                <button type="button" class="exportarPDF">PDF</button>
+            </div>
 
         </main>
         <footer>
 
         </footer>
     </body>
-    <script></script>
+    <script src="./js/convertir.js"></script>
+    <script src="./js/copiar.js"></script>
+    <script src="./js/exportar.js"></script>
 </html>
