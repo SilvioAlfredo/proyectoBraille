@@ -17,5 +17,66 @@
         margin-right: 5.5%;
         margin-bottom: 3%;
     }
+    /*Flex de la parte del main*/
+    .contenedorPrincipal{
+        display: flex;
+        flex-direction: column;
+    }
+    .subContenedorInput{
+        display: flex;
+        flex-direction: column;
+    }
+    .entrada{
+        margin-top: 2%;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 2%;
+    }
+    .subContenedorInputBoton{
+        display:flex; 
+        justify-content:center; 
+        align-items:center;
+    }
+    .convertirBraille{
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-bottom: 1%;
+    }
+    .subContenedorOuput{
+        display: flex;
+        flex-direction: column;
+    }
+    .subContenedorOuputBotones{
+        display:flex; 
+        justify-content:center; 
+        align-items:center;
+    }
+    .salida{
+        margin-top: 2%;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 2%;
+    }
+    .subContenedorOuputBotones{
+        justify-content: space-around;
+        margin-bottom: 2%;
+    }
+    .copiarBraille{
+        padding-top: 1%;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-bottom: 1%;
+    }
+    .exportarPDF{
+        padding-top: 1%;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-bottom: 1%; 
+    }
+    /*Flex del footer*/
+    
 }
 

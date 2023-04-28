@@ -23,17 +23,37 @@
         <main class = "contenedorPrincipal">
             <div class="subContenedorInput">
                 <textarea type="text" class="entrada" cols="30" rows="10" placeholder="Ingrese su texto aquí..."></textarea>
-                <button type="button" class="convertirBraille">Convertir</button>
+                <div class="subContenedorInputBoton">
+                    <button type="button" class="convertirBraille">Convertir</button>
+                </div>
+                
             </div>
             <div class="subContenedorOuput">
                 <textarea type="text" class="salida" cols="30" rows="10" placeholder="En este lugar aparecerá su texto en braille..."></textarea>
-                <button type="button" class="copiarBraille">Copiar</button>
-                <button type="button" class="exportarPDF">PDF</button>
+                <div class="subContenedorOuputBotones">
+                    <button type="button" class="copiarBraille">Copiar</button>
+                    <button type="button" class="exportarPDF">PDF</button>
+                </div>
             </div>
-
         </main>
-        <footer>
 
+        <footer class="rodapie">
+            <div class="seccionRedes">
+                <h3 class="redesFooter">Redes</h3>
+                <div class="seccionEnlacesRedes">
+                    <div class="logoEnlaceRedes">
+                        <img src="" alt="">
+                        <a href="" class="enlacesRedes">Riveros Silvio A.</a>
+                    </div>
+                    <div class="logoEnlaceRedes">
+                        <img src="" alt="">
+                        <a href="" class="enlacesRedes">Riveros Silvio A.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="seccionAutor">
+                <h5 class="autor">&copy Riveros Silvio A.</h5>
+            </div>
         </footer>
     </body>
     <script src="./js/convertir.js"></script>

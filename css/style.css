@@ -4,7 +4,7 @@
     background-color: #000000;
 }
 .encabezado, h1{ 
-    font-size: 1.74em;
+    font-size: 1.9em;
     font-weight:bolder;
     color: #FFFFFF;
 }
@@ -12,5 +12,50 @@
     font-size: 0.8em;
     font-weight:bolder;
     color: #36ABA4;
+    text-decoration: none;
 }
 /*Estilos del main de la página*/
+.contenedorPrincipal{
+    background-color: #F0F8FF;
+}
+.entrada{
+    font-size: 1.2em;
+    border: none;
+}
+.convertirBraille{
+    background-color: #3bb93b7a;
+    font-size: 1.2em;
+    border: none;
+}
+.salida{
+    font-size: 1.2em;
+    border: none;
+}
+.copiarBraille{
+    background-color: #3bb93b7a;
+    font-size: 1.2em;
+    border: none;
+}
+.exportarPDF{
+    background-color: #3bb93b7a;
+    font-size: 1.2em;
+    border: none;
+}
+.rodapie{
+    background-color: #000000;
+}
+
+.redesFooter{
+    font-weight:bolder;
+    color: #FFFFFF;
+}
+
+.enlacesRedes{
+    font-weight:bolder;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.autor{
+    font-weight:bolder;
+    color: #FFFFFF;
+}
