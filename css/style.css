@@ -1,3 +1,6 @@
+body{
+    background-color: #000000;
+}
 /*Estilos del header de la página*/
 .encabezado{
     font-family: 'Roboto', sans-serif;
@@ -41,6 +44,8 @@
     font-size: 1.2em;
     border: none;
 }
+
+/*Estilos footer*/
 .rodapie{
     background-color: #000000;
 }
@@ -49,7 +54,9 @@
     font-weight:bolder;
     color: #FFFFFF;
 }
-
+.logoRed{
+    width: 1.8em;
+}
 .enlacesRedes{
     font-weight:bolder;
     color: #FFFFFF;

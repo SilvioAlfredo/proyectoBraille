@@ -77,6 +77,27 @@
         padding-bottom: 1%; 
     }
     /*Flex del footer*/
-    
+    .rodapie{
+        display: flex;
+        flex-direction: column;
+    }
+    .seccionRedes{
+        display: flex;
+    }
+    .redesFooter{
+        margin-left: 5%;
+    }
+    .seccionEnlacesRedes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+    }
+    .logoEnlaceRedes{
+        display: flex;
+        
+    }
+    .enlacesRedes{
+        display: flex;
+    }
 }
 
