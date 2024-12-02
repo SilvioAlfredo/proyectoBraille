@@ -1,6 +1,7 @@
 body{
     background-color: #000000;
 }
+
 /*Estilos del header de la página*/
 .encabezado{
     font-family: 'Roboto', sans-serif;
@@ -22,7 +23,7 @@ body{
     background-color: #F0F8FF;
 }
 .entrada{
-    font-size: 1.2em;
+    font-size: 2vw;
     border: none;
 }
 .convertirBraille{
@@ -31,7 +32,7 @@ body{
     border: none;
 }
 .salida{
-    font-size: 1.2em;
+    font-size: 2vw;
     border: none;
 }
 .copiarBraille{
@@ -39,10 +40,8 @@ body{
     font-size: 1.2em;
     border: none;
 }
-.exportarPDF{
-    background-color: #3bb93b7a;
-    font-size: 1.2em;
-    border: none;
+.button{
+    margin-top: 2%;
 }
 
 /*Estilos footer*/
@@ -55,7 +54,7 @@ body{
     color: #FFFFFF;
 }
 .logoRed{
-    width: 1.8em;
+    width: 1.5vw;
 }
 .enlacesRedes{
     font-weight:bolder;

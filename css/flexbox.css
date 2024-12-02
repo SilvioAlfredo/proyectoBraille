@@ -1,103 +1,130 @@
-@media(max-width: 480px){
-    .encabezado{
-        display: flex;
-        flex-direction: column;
-    }
-    .encabezado h1{
-        margin-top: 2%;
-        margin-left: 5%;
-        margin-bottom: 2%;
-    }
-    .div__menu{
-        display: flex;
-        justify-content: space-between;
-    }
-    .menu{
-        margin-left: 5.5%;
-        margin-right: 5.5%;
-        margin-bottom: 3%;
-    }
-    /*Flex de la parte del main*/
-    .contenedorPrincipal{
-        display: flex;
-        flex-direction: column;
-    }
-    .subContenedorInput{
-        display: flex;
-        flex-direction: column;
-    }
-    .entrada{
-        margin-top: 2%;
-        margin-left: 4%;
-        margin-right: 4%;
-        margin-bottom: 2%;
-    }
-    .subContenedorInputBoton{
-        display:flex; 
-        justify-content:center; 
-        align-items:center;
-    }
-    .convertirBraille{
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 1%;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-bottom: 1%;
-    }
-    .subContenedorOuput{
-        display: flex;
-        flex-direction: column;
-    }
-    .subContenedorOuputBotones{
-        display:flex; 
-        justify-content:center; 
-        align-items:center;
-    }
-    .salida{
-        margin-top: 2%;
-        margin-left: 4%;
-        margin-right: 4%;
-        margin-bottom: 2%;
-    }
-    .subContenedorOuputBotones{
-        justify-content: space-around;
-        margin-bottom: 2%;
-    }
-    .copiarBraille{
-        padding-top: 1%;
-        padding-left: 6%;
-        padding-right: 6%;
-        padding-bottom: 1%;
-    }
-    .exportarPDF{
-        padding-top: 1%;
-        padding-left: 8%;
-        padding-right: 8%;
-        padding-bottom: 1%; 
-    }
-    /*Flex del footer*/
-    .rodapie{
-        display: flex;
-        flex-direction: column;
-    }
-    .seccionRedes{
-        display: flex;
-    }
-    .redesFooter{
-        margin-left: 5%;
-    }
-    .seccionEnlacesRedes{
-        display: flex;
-        flex-direction: column;
-        margin-left: 2%;
-    }
-    .logoEnlaceRedes{
-        display: flex;
-        
-    }
-    .enlacesRedes{
-        display: flex;
-    }
+body{
+    height: 100vh;
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.encabezado h1{
+    margin: 2%;
+    padding-left: 3%;
+}
+.div__menu{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 5%;
+}
+.menu{
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    margin-bottom: 3%;
+}
+/*Flex de la parte del main*/
+.contenedorPrincipal{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    justify-content:space-around;
+    width: 100%;
+    padding-top: 3%;
+}
+.subContenedorInput{
+    display: flex;
+    flex-direction: column;
+}
+.entrada{
+    padding: 4%;
+    height: 60%;
+    border-radius: 36px;
+    background: #ffffff;
+    box-shadow: inset 31px 31px 55px #d1d1d1,
+                inset -31px -31px 55px #ffffff;
+}
+.subContenedorInputBoton{
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+}
+.convertirBraille{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+}
+.subContenedorOuput{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+.subContenedorOuputBotones{
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+}
+.salida{
+    padding: 4%;
+    height: 60%;
+    border-radius: 36px;
+    background: #ffffff;
+    box-shadow: inset 31px 31px 55px #d1d1d1,
+                inset -31px -31px 55px #ffffff;
 }
 
+.copiarBraille{
+    padding-top: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 1%;
+}
+
+/* Flex del footer */
+.rodapie {
+    display: flex;
+    justify-content: space-around; /* Espacio entre las secciones del footer */
+    align-items: center; /* Alinea verticalmente los elementos */
+    padding: 2%;
+}
+
+/* Sección de redes */
+.seccionRedes {
+    display: flex;
+    flex-direction: row; /* Cambia a columna para apilar el título sobre los enlaces */
+}
+
+/* Redes en el footer */
+.redesFooter {
+    margin-bottom: 10px; /* Espacio entre el título y los enlaces */
+}
+
+/* Enlaces de redes */
+.seccionEnlacesRedes {
+    display: flex;
+    flex-direction: row; /* Alinea los enlaces horizontalmente */
+    justify-content: space-around; /* Espacio entre los enlaces */
+    align-items: center;
+}
+
+/* Logo de enlace de redes */
+.logoEnlaceRedes {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    margin: 0 10px; /* Margen lateral para separación */
+}
+
+.logoRed {
+    width: 30px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Mantiene la proporción */
+}
+
+/* Autor */
+.seccionAutor {
+    text-align: right; /* Alinea el texto a la derecha */
+}
+
+.enlacesRedes{
+    margin-left: 1rem;
+}
